@@ -14,8 +14,8 @@ body{
 }
 
 .caption{
-    text-shadow: 3px 3px 9px #333;
-    outline: #333;
+    text-shadow: 3px 3px 9px #333 !important;
+    outline: #333 !important;
 }
 
 .card-title{
