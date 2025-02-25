@@ -1,67 +1,67 @@
-body{
+body {
     background-color: #f7fcff !important;
- }
+}
 
-.section-follow .fa-4x{
+.section-follow .fa-4x {
     margin: 5px 10px;
 }
 
 .section-follow .fa-4x:hover {
-    color: #0c3b69 !important; 
+    color: #0c3b69 !important;
 }
 
-.caption{
+.caption {
     text-shadow: 1px 1px .2px rgba(255, 255, 255, 0.404) !important;
     outline: #333 !important;
     background: rgba(255, 255, 255, 0.041);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-    backdrop-filter: blur( 8.5px );
-    -webkit-backdrop-filter: blur( 12.5px );
+    backdrop-filter: blur(8.5px);
+    -webkit-backdrop-filter: blur(12.5px);
     border-radius: 15px;
     padding: 1rem;
 }
 
-.card-title{
+.card-title {
     text-shadow: 1px 1px 9px #333 !important;
     font-weight: 700 !important;
-    }
-
-.btn{
-        margin-top: 15px;     
 }
 
-.row h6{
-        margin-bottom: 50px !important;
+.btn {
+    margin-top: 15px;
 }
 
-.btn:hover{
-        background-color: #fff !important;
-        color: #333 !important;
+.row h6 {
+    margin-bottom: 50px !important;
 }
 
-blockquote{
-        font-size: 11px !important;
+.btn:hover {
+    background-color: #fff !important;
+    color: #333 !important;
 }
 
-.section-popular span img{
+blockquote {
+    font-size: 11px !important;
+}
+
+.section-popular span img {
     width: 300px !important;
     animation: FadeInLogo 2s forwards 0s ease-in;
 }
 
-.card{
+.card {
     height: 380px !important;
 }
 
-.brand-logo img{
-    height: 50px !important; 
-    padding: auto !important; 
+.brand-logo img {
+    height: 50px !important;
+    padding: auto !important;
 }
 
-.logo-info{
+.logo-info {
     margin-top: 5rem;
 }
 
-.video-container{
+.video-container {
     margin-top: 1.5rem !important;
 }
 
@@ -69,28 +69,37 @@ blockquote{
     height: 300px !important;
 }
 
+.title {
+    font-size: 18px;
+    font-weight: 700;
+}
 
-@keyframes FadeInLogo{
-    0%{
+
+@keyframes FadeInLogo {
+    0% {
         opacity: 0;
-        }
-    50%{
-        opacity: 0.5;
-        }
-    100%{
-        opacity: 1;
-        }
     }
 
-    [data-scroll] {
-        transition: all 1s;
-      }
-      [data-scroll="in"] {
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
         opacity: 1;
-        transform: translateY(0);
-    
-      }
-      [data-scroll="out"] {
-        opacity: 0;
-        transform: translateY(100px);
-      }
+    }
+}
+
+[data-scroll] {
+    transition: all 1s;
+}
+
+[data-scroll="in"] {
+    opacity: 1;
+    transform: translateY(0);
+
+}
+
+[data-scroll="out"] {
+    opacity: 0;
+    transform: translateY(100px);
+}
